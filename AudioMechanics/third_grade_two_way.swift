@@ -3,7 +3,7 @@
 //  AudioMechanics
 //
 //  Created by Angelo Frangione on 03/09/2016.
-//  Copyright © 2016 Angelo Frangione. All rights reserved.
+//  
 //
 
 import Cocoa
