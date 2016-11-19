@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17010D7A1D818F36002B71F9 /* four_grade_two_way.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17010D791D818F36002B71F9 /* four_grade_two_way.swift */; };
+		172269CC1D7648FA00761FE5 /* first_grade_two_way.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172269CB1D7648FA00761FE5 /* first_grade_two_way.swift */; };
+		172322CB1D7A50C700C850FA /* third_grade_two_way.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172322CA1D7A50C700C850FA /* third_grade_two_way.swift */; };
+		1723AF451D76EB7B00A8B84F /* second_grade_two_way.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1723AF441D76EB7B00A8B84F /* second_grade_two_way.swift */; };
 		17F681731D750B3400799E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F681721D750B3400799E45 /* AppDelegate.swift */; };
 		17F681751D750B3400799E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F681741D750B3400799E45 /* ViewController.swift */; };
 		17F681771D750B3400799E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F681761D750B3400799E45 /* Assets.xcassets */; };
 		17F6817A1D750B3400799E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F681781D750B3400799E45 /* Main.storyboard */; };
-		17F681851D750B3400799E45 /* AudioMechanicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F681841D750B3400799E45 /* AudioMechanicsTests.swift */; };
-		17F681901D750B3400799E45 /* AudioMechanicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F6818F1D750B3400799E45 /* AudioMechanicsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17010D791D818F36002B71F9 /* four_grade_two_way.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = four_grade_two_way.swift; sourceTree = "<group>"; };
+		172269CB1D7648FA00761FE5 /* first_grade_two_way.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = first_grade_two_way.swift; sourceTree = "<group>"; };
+		172322CA1D7A50C700C850FA /* third_grade_two_way.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = third_grade_two_way.swift; sourceTree = "<group>"; };
+		1723AF441D76EB7B00A8B84F /* second_grade_two_way.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = second_grade_two_way.swift; sourceTree = "<group>"; };
 		17F6816F1D750B3400799E45 /* AudioMechanics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioMechanics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F681721D750B3400799E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17F681741D750B3400799E45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,11 +46,7 @@
 		17F681791D750B3400799E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17F6817B1D750B3400799E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17F681801D750B3400799E45 /* AudioMechanicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioMechanicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		17F681841D750B3400799E45 /* AudioMechanicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMechanicsTests.swift; sourceTree = "<group>"; };
-		17F681861D750B3400799E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17F6818B1D750B3400799E45 /* AudioMechanicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioMechanicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		17F6818F1D750B3400799E45 /* AudioMechanicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMechanicsUITests.swift; sourceTree = "<group>"; };
-		17F681911D750B3400799E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +74,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		172269CE1D76493100761FE5 /* crossover_views */ = {
+			isa = PBXGroup;
+			children = (
+				172269CB1D7648FA00761FE5 /* first_grade_two_way.swift */,
+				1723AF441D76EB7B00A8B84F /* second_grade_two_way.swift */,
+				172322CA1D7A50C700C850FA /* third_grade_two_way.swift */,
+				17010D791D818F36002B71F9 /* four_grade_two_way.swift */,
+			);
+			name = crossover_views;
+			sourceTree = "<group>";
+		};
 		17F681661D750B3400799E45 = {
 			isa = PBXGroup;
 			children = (
 				17F681711D750B3400799E45 /* AudioMechanics */,
-				17F681831D750B3400799E45 /* AudioMechanicsTests */,
-				17F6818E1D750B3400799E45 /* AudioMechanicsUITests */,
 				17F681701D750B3400799E45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,26 +111,9 @@
 				17F681761D750B3400799E45 /* Assets.xcassets */,
 				17F681781D750B3400799E45 /* Main.storyboard */,
 				17F6817B1D750B3400799E45 /* Info.plist */,
+				172269CE1D76493100761FE5 /* crossover_views */,
 			);
 			path = AudioMechanics;
-			sourceTree = "<group>";
-		};
-		17F681831D750B3400799E45 /* AudioMechanicsTests */ = {
-			isa = PBXGroup;
-			children = (
-				17F681841D750B3400799E45 /* AudioMechanicsTests.swift */,
-				17F681861D750B3400799E45 /* Info.plist */,
-			);
-			path = AudioMechanicsTests;
-			sourceTree = "<group>";
-		};
-		17F6818E1D750B3400799E45 /* AudioMechanicsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				17F6818F1D750B3400799E45 /* AudioMechanicsUITests.swift */,
-				17F681911D750B3400799E45 /* Info.plist */,
-			);
-			path = AudioMechanicsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,11 +179,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Angelo Frangione";
 				TargetAttributes = {
 					17F6816E1D750B3400799E45 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 77966Y9CHU;
+						LastSwiftMigration = 0800;
 					};
 					17F6817F1D750B3400799E45 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -252,8 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1723AF451D76EB7B00A8B84F /* second_grade_two_way.swift in Sources */,
 				17F681751D750B3400799E45 /* ViewController.swift in Sources */,
 				17F681731D750B3400799E45 /* AppDelegate.swift in Sources */,
+				172269CC1D7648FA00761FE5 /* first_grade_two_way.swift in Sources */,
+				17010D7A1D818F36002B71F9 /* four_grade_two_way.swift in Sources */,
+				172322CB1D7A50C700C850FA /* third_grade_two_way.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F681851D750B3400799E45 /* AudioMechanicsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17F681901D750B3400799E45 /* AudioMechanicsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,8 +312,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -359,8 +359,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -379,6 +381,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -386,11 +389,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AudioMechanics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = afrangio.AudioMechanics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -398,11 +405,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AudioMechanics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = afrangio.AudioMechanics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -475,6 +486,7 @@
 				17F681961D750B3400799E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17F681971D750B3400799E45 /* Build configuration list for PBXNativeTarget "AudioMechanicsTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +495,7 @@
 				17F681991D750B3400799E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17F6819A1D750B3400799E45 /* Build configuration list for PBXNativeTarget "AudioMechanicsUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +504,7 @@
 				17F6819C1D750B3400799E45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
